@@ -1,0 +1,24 @@
+-- Create the 'roman_arenas' table
+CREATE TABLE arenas (
+    arena_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    location VARCHAR(100),
+    capacity INT
+);
+
+-- Insert sample data into the 'arenas' table
+INSERT INTO arenas (name, location, capacity)
+VALUES
+    ('Colosseum', 'Rome', 50000),
+    ('Pompeii Amphitheatre', 'Pompeii', 20000),
+    ('Ludus Magnus', 'Rome', 10000),
+    ('Carthage Arena', 'Carthage', 15000),
+    ('Ephesus Arena', 'Ephesus', 12000),
+    ('Verona Arena', 'Verona', 30000),
+    ('Nimes Arena', 'Nimes', 24000),
+    ('Arles Amphitheatre', 'Arles', 20000),
+    ('Capua Amphitheatre', 'Capua', 16000),
+    ('Falerii Amphitheatre', 'Falerii', 10000),
+    ('Neopolis Amphitheatre', 'Neopolis', 18000),
+    ('Capua Annex Amphitheatre', 'Capua', 8000),
+    ('Augustodunum Amphitheatre', 'Augustodunum', 17000);
