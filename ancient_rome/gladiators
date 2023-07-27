@@ -1,0 +1,39 @@
+-- Create the 'gladiators' table
+CREATE TABLE gladiators (
+    gladiator_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    combat_style VARCHAR(100),
+    victories INT,
+    defeats INT,
+    arena VARCHAR(100)
+);
+
+-- Insert sample data into the 'gladiators' table
+INSERT INTO gladiators (name, combat_style, victories, defeats, arena)
+VALUES
+    ('Spartacus', 'Thracian', 12, 3, 'Colosseum'),
+    ('Maximus', 'Retiarius', 8, 2, 'Ludus Magnus'),
+    ('Crixus', 'Murmillo', 9, 1, 'Colosseum'),
+    ('Verus', 'Secutor', 11, 4, 'Colosseum'),
+    ('Amazonia', 'Murmillo', 7, 6, 'Ludus Magnus'),
+    ('Achilles', 'Thraex', 10, 5, 'Colosseum'),
+    ('Lysandra', 'Retiarius', 6, 3, 'Pompeii Amphitheatre'),
+    ('Ajax', 'Murmillo', 9, 2, 'Colosseum'),
+    ('Aurelia', 'Secutor', 5, 2, 'Ludus Magnus'),
+    ('Brutus', 'Thracian', 11, 1, 'Colosseum'),
+    ('Diana', 'Amazon', 8, 4, 'Colosseum'),
+    ('Titus', 'Retiarius', 6, 1, 'Ludus Magnus'),
+    ('Flavia', 'Murmillo', 10, 3, 'Colosseum'),
+    ('Octavian', 'Secutor', 7, 5, 'Pompeii Amphitheatre'),
+    ('Lydia', 'Thraex', 9, 3, 'Colosseum'),
+    ('Vitus', 'Retiarius', 4, 2, 'Colosseum'),
+    ('Aelia', 'Murmillo', 12, 1, 'Ludus Magnus'),
+    ('Marcus', 'Secutor', 10, 4, 'Colosseum'),
+    ('Tullia', 'Amazon', 6, 2, 'Colosseum'),
+    ('Aetius', 'Retiarius', 11, 3, 'Colosseum'),
+    ('Aurelius', 'Murmillo', 8, 5, 'Ludus Magnus'),
+    ('Cassia', 'Thraex', 7, 3, 'Colosseum'),
+    ('Tiberius', 'Secutor', 12, 2, 'Colosseum'),
+    ('Valeria', 'Murmillo', 5, 1, 'Pompeii Amphitheatre'),
+    -- Add more gladiators here
+;
