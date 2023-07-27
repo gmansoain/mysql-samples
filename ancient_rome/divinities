@@ -1,0 +1,38 @@
+-- Create the 'roman_divinities' table
+CREATE TABLE divinities (
+    deity_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    domain VARCHAR(100),
+    description TEXT
+);
+
+-- Insert sample data into the 'roman_divinities' table
+INSERT INTO divinities (name, domain, description)
+VALUES
+    ('Jupiter', 'King of the Gods', 'God of the sky and thunder'),
+    ('Venus', 'Goddess of Love', 'Associated with beauty and fertility'),
+    ('Mars', 'God of War', 'Represented military power and valor'),
+    ('Neptune', 'God of the Sea', 'Ruler of the oceans and water'),
+    ('Diana', 'Goddess of the Hunt', 'Patroness of the wilderness and hunting'),
+    ('Apollo', 'God of Sun and Arts', 'God of music, poetry, and healing'),
+    ('Minerva', 'Goddess of Wisdom', 'Associated with strategy, wisdom, and crafts'),
+    ('Mercury', 'God of Commerce', 'Messenger of the gods and patron of travelers'),
+    ('Vesta', 'Goddess of the Hearth', 'Protector of the home and family'),
+    ('Ceres', 'Goddess of Agriculture', 'Associated with fertility and agriculture'),
+    ('Vulcan', 'God of Fire and Smithing', 'Master blacksmith and forger of the gods'),
+    ('Juno', 'Goddess of Marriage', 'Queen of the gods and protector of women'),
+    ('Bacchus', 'God of Wine and Festivity', 'Associated with joy, wine, and ecstasy'),
+    ('Saturn', 'God of Agriculture and Harvest', 'Father of Jupiter and associated with time'),
+    ('Pluto', 'God of the Underworld', 'Ruler of the underworld and riches'),
+    ('Magna Mater', 'Great Mother Goddess', 'Cybele, the Magna Mater, associated with fertility and motherhood'),
+    ('Bellona', 'Goddess of War', 'Goddess of war and destruction'),
+    ('Janus', 'God of Beginnings and Transitions', 'Two-faced god representing the past and future'),
+    ('Cupid', 'God of Love', 'God of love, desire, and affection'),
+    ('Fortuna', 'Goddess of Fortune', 'Goddess of luck, chance, and fate'),
+    ('Venus Genetrix', 'Goddess of Motherhood', 'An aspect of Venus associated with motherhood and ancestress of the Roman people'),
+    ('Diana Nemorensis', 'Goddess of the Woods', 'Goddess of the hunt and guardian of Nemi'),
+    ('Pomona', 'Goddess of Fruit and Orchards', 'Protector of fruit trees and gardens'),
+    ('Mithras', 'God of the Sun and Light', 'God of the sun and associated with cosmic mysteries'),
+    ('Aesculapius', 'God of Healing', 'God of healing and medicine'),
+    -- Add more divinities here
+;
