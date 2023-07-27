@@ -1,8 +1,25 @@
--- Sample data for the cities table
-INSERT INTO cities (name, foundation_date, latitude, longitude, description)
+-- Create the 'roman_cities' table
+CREATE TABLE roman_cities (
+    city_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    foundation_date VARCHAR(50),
+    latitude FLOAT,
+    longitude FLOAT,
+    description TEXT
+);
+
+-- Insert sample data into the 'roman_cities' table
+INSERT INTO roman_cities (name, foundation_date, latitude, longitude, description)
 VALUES
     ('Rome', '753 BC', 41.9028, 12.4964, 'The capital of the Roman Empire'),
     ('Pompeii', '6th century BC', 40.7489, 14.4845, 'Preserved ancient Roman city near Naples'),
     ('Ephesus', '10th century BC', 37.9399, 27.3443, 'Ancient Greek city later under Roman control'),
     ('Carthage', '814 BC', 36.8512, 10.2827, 'Rival city-state to Rome in the Punic Wars'),
-    ('Alexandria', '331 BC', 31.2156, 29.9553, 'Important center of trade and knowledge in Egypt');
+    ('Alexandria', '331 BC', 31.2156, 29.9553, 'Important center of trade and knowledge in Egypt'),
+    ('Trier', 'c. 16 BC', 49.7567, 6.6417, 'Known as "Augusta Treverorum," one of the oldest Roman cities in Germany'),
+    ('Nimes', 'c. 45 BC', 43.8367, 4.3601, 'Famous for its well-preserved Roman monuments in France'),
+    ('Pergamon', 'c. 302 BC', 39.1301, 27.1843, 'Ancient city in Asia Minor with a famous library'),
+    ('Syracuse', 'c. 734 BC', 37.0865, 15.2851, 'Prominent Greek and Roman city in Sicily'),
+    ('Londinium', 'c. AD 43', 51.5074, -0.1278, 'Roman settlement that eventually became London'),
+    -- Add more cities here
+;
