@@ -1,0 +1,8 @@
+-- Sample data for the cities table
+INSERT INTO cities (name, foundation_date, latitude, longitude, description)
+VALUES
+    ('Rome', '753 BC', 41.9028, 12.4964, 'The capital of the Roman Empire'),
+    ('Pompeii', '6th century BC', 40.7489, 14.4845, 'Preserved ancient Roman city near Naples'),
+    ('Ephesus', '10th century BC', 37.9399, 27.3443, 'Ancient Greek city later under Roman control'),
+    ('Carthage', '814 BC', 36.8512, 10.2827, 'Rival city-state to Rome in the Punic Wars'),
+    ('Alexandria', '331 BC', 31.2156, 29.9553, 'Important center of trade and knowledge in Egypt');
