@@ -1,4 +1,4 @@
--- Create the 'roman_divinities' table
+-- Create the 'divinities' table
 CREATE TABLE divinities (
     deity_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -6,7 +6,7 @@ CREATE TABLE divinities (
     description TEXT
 );
 
--- Insert sample data into the 'roman_divinities' table
+-- Insert sample data into the 'divinities' table
 INSERT INTO divinities (name, domain, description)
 VALUES
     ('Jupiter', 'King of the Gods', 'God of the sky and thunder'),
