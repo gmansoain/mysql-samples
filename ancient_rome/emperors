@@ -1,0 +1,32 @@
+CREATE TABLE emperors (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    reign_start VARCHAR(10) NOT NULL,
+    reign_end VARCHAR(10),
+    birth_date VARCHAR(10),
+    death_date VARCHAR(10),
+    dynasty VARCHAR(100),
+    other_titles TEXT,
+    biography TEXT
+);
+
+INSERT INTO emperors (name, reign_start, reign_end, birth_date, death_date, dynasty, other_titles, biography) VALUES
+('Augustus', '27 BC', '14 AD', '63 BC', '14 AD', 'Julio-Claudian', 'Imperator Caesar Divi Filius Augustus', 'Augustus was the first Roman emperor, ruling from 27 BC until his death in 14 AD. He was the founder of the Roman Principate and the first ruler of the Julio-Claudian dynasty.'),
+('Tiberius', '14 AD', '37 AD', '42 BC', '37 AD', 'Julio-Claudian', 'Imperator Tiberius Caesar Divi Augusti Filius Augustus', 'Tiberius was the second Roman emperor, succeeding Augustus. He ruled from 14 AD until his death in 37 AD.'),
+('Caligula', '37 AD', '41 AD', '12 AD', '41 AD', 'Julio-Claudian', 'Gaius Caesar Augustus Germanicus', 'Caligula was the third Roman emperor, ruling from 37 AD until his assassination in 41 AD.'),
+('Claudius', '41 AD', '54 AD', '10 BC', '54 AD', 'Julio-Claudian', 'Tiberius Claudius Caesar Augustus Germanicus', 'Claudius was the fourth Roman emperor, ruling from 41 AD until his death in 54 AD. He was known for his expansion of the empire and public works.'),
+('Nero', '54 AD', '68 AD', '37 AD', '68 AD', 'Julio-Claudian', 'Nero Claudius Caesar Augustus Germanicus', 'Nero was the fifth Roman emperor, ruling from 54 AD until his death in 68 AD. His reign was marked by extravagance and persecution of Christians.'),
+('Galba', '68 AD', '69 AD', '3 BC', '69 AD', 'Year of the Four Emperors', 'Servius Sulpicius Galba Caesar Augustus', 'Galba was the sixth Roman emperor, ruling for a brief period from 68 AD until his assassination in 69 AD.'),
+('Otho', '69 AD', '69 AD', '32 AD', '69 AD', 'Year of the Four Emperors', 'Marcus Salvius Otho Caesar Augustus', 'Otho was the seventh Roman emperor, ruling for a few months in 69 AD until his suicide.'),
+('Vitellius', '69 AD', '69 AD', '15 AD', '69 AD', 'Year of the Four Emperors', 'Aulus Vitellius Germanicus Augustus', 'Vitellius was the eighth Roman emperor, ruling for a few months in 69 AD until his execution.'),
+('Vespasian', '69 AD', '79 AD', '9 AD', '79 AD', 'Flavian', 'Titus Flavius Caesar Vespasianus Augustus', 'Vespasian was the ninth Roman emperor, ruling from 69 AD until his death in 79 AD. He founded the Flavian dynasty.'),
+('Titus', '79 AD', '81 AD', '39 AD', '81 AD', 'Flavian', 'Titus Flavius Caesar Vespasianus Augustus', 'Titus was the tenth Roman emperor, ruling from 79 AD until his death in 81 AD. He is remembered for his generosity and efforts during the eruption of Mount Vesuvius.'),
+('Domitian', '81 AD', '96 AD', '51 AD', '96 AD', 'Flavian', 'Titus Flavius Caesar Domitianus Augustus', 'Domitian was the eleventh Roman emperor, ruling from 81 AD until his assassination in 96 AD.'),
+('Nerva', '96 AD', '98 AD', '30 AD', '98 AD', 'Nerva-Antonine', 'Marcus Cocceius Nerva Caesar Augustus', 'Nerva was the twelfth Roman emperor, ruling from 96 AD until his death in 98 AD. He was known for his benevolence and efforts to restore the Senate.'),
+('Trajan', '98 AD', '117 AD', '53 AD', '117 AD', 'Nerva-Antonine', 'Caesar Nerva Traianus Augustus', 'Trajan was the thirteenth Roman emperor, ruling from 98 AD until his death in 117 AD. He presided over one of the greatest expansions of the Roman Empire.'),
+('Hadrian', '117 AD', '138 AD', '76 AD', '138 AD', 'Nerva-Antonine', 'Publius Aelius Hadrianus Augustus', 'Hadrian was the fourteenth Roman emperor, ruling from 117 AD until his death in 138 AD. He is known for his extensive travels and architectural projects.'),
+('Antoninus Pius', '138 AD', '161 AD', '86 AD', '161 AD', 'Nerva-Antonine', 'Titus Aelius Hadrianus Antoninus Augustus Pius', 'Antoninus Pius was the fifteenth Roman emperor, ruling from 138 AD until his death in 161 AD. He was known for his peaceful reign and promotion of the arts.'),
+('Marcus Aurelius', '161 AD', '180 AD', '121 AD', '180 AD', 'Nerva-Antonine', 'Caesar Marcus Aurelius Antoninus Augustus', 'Marcus Aurelius was the sixteenth Roman emperor, ruling from 161 AD until his death in 180 AD. He was a Stoic philosopher and author of "Meditations."'),
+('Lucius Verus', '161 AD', '169 AD', '130 AD', '169 AD', 'Nerva-Antonine', 'Caesar Lucius Aurelius Verus Augustus', 'Lucius Verus was the seventeenth Roman emperor, ruling jointly with Marcus Aurelius from 161 AD until his death in 169 AD.'),
+('Commodus', '180 AD', '192 AD', '161 AD', '192 AD', 'Nerva-Antonine', 'Lucius Aelius Aurelius Commodus Augustus', 'Commodus was the eighteenth Roman emperor, ruling from 180 AD until his assassination in 192 AD.'),
+('Pertinax', '193 AD', '193 AD', '126 AD', '193 AD', 'Year of the Five Emperors', 'Publius Helvius Pertinax Augustus', 'Pertinax was the nineteenth Roman emperor, ruling for a few months in 193 AD until his assassination during the Year of the Five Emperors.');
