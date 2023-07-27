@@ -1,5 +1,5 @@
 -- Create the 'roman_cities' table
-CREATE TABLE roman_cities (
+CREATE TABLE cities (
     city_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     foundation_date VARCHAR(50),
@@ -9,7 +9,7 @@ CREATE TABLE roman_cities (
 );
 
 -- Insert sample data into the 'roman_cities' table
-INSERT INTO roman_cities (name, foundation_date, latitude, longitude, description)
+INSERT INTO cities (name, foundation_date, latitude, longitude, description)
 VALUES
     ('Rome', '753 BC', 41.9028, 12.4964, 'The capital of the Roman Empire'),
     ('Pompeii', '6th century BC', 40.7489, 14.4845, 'Preserved ancient Roman city near Naples'),
