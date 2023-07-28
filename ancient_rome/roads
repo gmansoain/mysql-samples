@@ -9,7 +9,6 @@ CREATE TABLE roads (
 );
 
 INSERT INTO roads (road_name, origin, destination, distance_km, construction_year, description) VALUES 
-    ('Via Appia', 'Rome', 'Brindisi', 540, '312 BC', 'The first and most famous Roman road.'),
     ('Via Aurelia', 'Rome', 'Genoa', 520, '241 BC', 'Connected Rome to the northwest coast of Italy.'),
     ('Via Flaminia', 'Rome', 'Rimini', 215, '220 BC', 'Connected Rome to the Adriatic coast.'),
     ('Via Emilia', 'Rimini', 'Piacenza', 240, '187 BC', 'Connected Rimini to Piacenza.'),
