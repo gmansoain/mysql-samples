@@ -4,20 +4,19 @@ CREATE TABLE roads (
     origin VARCHAR(100) NOT NULL,
     destination VARCHAR(100) NOT NULL,
     distance_km FLOAT NOT NULL,
-    construction_year INT NOT NULL,
+    construction_year VARCHAR(25) NOT NULL,
     description TEXT
 );
 
-INSERT INTO roads (road_name, origin, destination, distance_km, construction_year, description)
-VALUES 
-    ('Via Appia', 'Rome', 'Brindisi', 540, 312 BC, 'The first and most famous Roman road.'),
-    ('Via Aurelia', 'Rome', 'Genoa', 520, 241 BC, 'Connected Rome to the northwest coast of Italy.'),
-    ('Via Flaminia', 'Rome', 'Rimini', 215, 220 BC, 'Connected Rome to the Adriatic coast.'),
-    ('Via Emilia', 'Rimini', 'Piacenza', 240, 187 BC, 'Connected Rimini to Piacenza.'),
-    ('Via Aemilia Scauri', 'Piacenza', 'Arles', 490, 109 BC, 'Extended Via Emilia to Gaul.'),
-    ('Via Domitia', 'Rome', 'Narbonne', 459, 118 BC, 'The first Roman road built outside of Italy.'),
-    ('Via Julia Augusta', 'Piedmont', 'Arelate', 250, 13 BC, 'Extended Via Aurelia to Arelate (Arles).'),
-    ('Via Claudia Augusta', 'Altinum', 'Augsburg', 350, 47 AD, 'Connected the Po River to the Danube River.'),
+INSERT INTO roads (road_name, origin, destination, distance_km, construction_year, description) VALUES 
+    ('Via Appia', 'Rome', 'Brindisi', 540, '312 BC', 'The first and most famous Roman road.'),
+    ('Via Aurelia', 'Rome', 'Genoa', 520, '241 BC', 'Connected Rome to the northwest coast of Italy.'),
+    ('Via Flaminia', 'Rome', 'Rimini', 215, '220 BC', 'Connected Rome to the Adriatic coast.'),
+    ('Via Emilia', 'Rimini', 'Piacenza', 240, '187 BC', 'Connected Rimini to Piacenza.'),
+    ('Via Aemilia Scauri', 'Piacenza', 'Arles', 490, '109 BC', 'Extended Via Emilia to Gaul.'),
+    ('Via Domitia', 'Rome', 'Narbonne', 459, '118 BC', 'The first Roman road built outside of Italy.'),
+    ('Via Julia Augusta', 'Piedmont', 'Arelate', 250, '13 BC', 'Extended Via Aurelia to Arelate (Arles).'),
+    ('Via Claudia Augusta', 'Altinum', 'Augsburg', 350, '47 AD', 'Connected the Po River to the Danube River.'),
     ('Via Argentaria', 'Rome', 'Braga', 380, 79 AD, 'Connected Rome to Braga in modern-day Portugal.'),
     ('Via Lusitanorum', 'Salamanca', 'Braga', 300, 138 AD, 'Connected Salamanca to Braga.'),
     ('Via Salaria', 'Rome', 'Ascoli Piceno', 235, 242 AD, 'Connected Rome to the Adriatic Sea.'),
