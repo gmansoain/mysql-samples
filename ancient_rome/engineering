@@ -1,0 +1,36 @@
+CREATE TABLE engineering (
+    project_id INT AUTO_INCREMENT PRIMARY KEY,
+    project_name VARCHAR(100) NOT NULL,
+    project_type VARCHAR(50) NOT NULL,
+    construction_year VARCHAR(25) NOT NULL,
+    location VARCHAR(100) NOT NULL,
+    description TEXT
+);
+
+INSERT INTO engineering (project_name, project_type, construction_year, location, description)
+VALUES 
+    ('Colosseum', 'Amphitheater', '70 AD', 'Rome', 'An iconic amphitheater used for gladiator contests and public spectacles.'),
+    ('Pantheon', 'Temple', '126 AD', 'Rome', 'A famous temple dedicated to all the gods of ancient Rome.'),
+    ('Aqueduct of Segovia', 'Aqueduct', '50 AD', 'Segovia, Spain', 'A well-preserved Roman aqueduct in Spain.'),
+    ('Pont du Gard', 'Aqueduct', '50 AD', 'Nimes, France', 'An ancient Roman aqueduct in France.'),
+    ('Via Appia', 'Road', '312 BC', 'Rome to Brindisi, Italy', 'The first and most important Roman road.'),
+    ('Trajan\'s Column', 'Monument', '113 AD', 'Rome', 'A triumphal column commemorating Emperor Trajan\'s victory in the Dacian Wars.'),
+    ('Baths of Caracalla', 'Baths', '216 AD', 'Rome', 'Large public baths complex built during the reign of Caracalla.'),
+    ('Circus Maximus', 'Chariot Racing Track', '500 BC', 'Rome', 'An ancient Roman chariot racing stadium.'),
+    ('Roman Forum', 'Public Square', '7th Century BC', 'Rome', 'The center of ancient Roman public life.'),
+    ('Hadrian\'s Wall', 'Fortification', '122 AD', 'Northern England', 'A defensive fortification built to mark the northern boundary of the Roman Empire.'),
+    ('Aqua Claudia', 'Aqueduct', '52 AD', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.'),
+    ('Port of Ostia', 'Port', '1st Century BC', 'Ostia, Italy', 'The ancient port of Rome.'),
+    ('Roman Bridge of Cordoba', 'Bridge', '1st Century BC', 'Cordoba, Spain', 'A Roman bridge over the Guadalquivir river.'),
+    ('Temple of Bacchus', 'Temple', '150 AD', 'Baalbek, Lebanon', 'A Roman temple dedicated to the god Bacchus.'),
+    ('Trajan\'s Market', 'Commercial Complex', '100 AD', 'Rome', 'A large market complex built by Emperor Trajan.'),
+    ('Aqua Anio Vetus', 'Aqueduct', '272 BC', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.'),
+    ('Aqua Anio Novus', 'Aqueduct', '52 AD', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.'),
+    ('Aqua Marcia', 'Aqueduct', '144 BC', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.'),
+    ('Ephesus Library', 'Library', '117 AD', 'Ephesus, Turkey', 'A library in the ancient city of Ephesus.'),
+    ('Hadrian\'s Villa', 'Villa', '2nd Century AD', 'Tivoli, Italy', 'A large villa complex built by Emperor Hadrian.'),
+    ('Pons Fabricius', 'Bridge', '62 BC', 'Rome', 'The oldest Roman bridge still in use.'),
+    ('Arch of Titus', 'Triumphal Arch', '81 AD', 'Rome', 'A triumphal arch commemorating the sack of Jerusalem.'),
+    ('Aqua Tepula', 'Aqueduct', '125 BC', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.'),
+    ('Aqua Julia', 'Aqueduct', '33 BC', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.'),
+    ('Aqua Virgo', 'Aqueduct', '19 BC', 'Rome', 'An ancient Roman aqueduct that supplied water to the city of Rome.');
