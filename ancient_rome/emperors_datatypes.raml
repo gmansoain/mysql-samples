@@ -1,0 +1,135 @@
+RomanEmperor (Custom Data Type)
+Represents the details of a Roman emperor.
+
+raml
+Copy code
+types:
+  RomanEmperor:
+    type: object
+    properties:
+      name: string
+      reign_start: string
+      reign_end: string
+      birth_date: string
+      death_date: string
+      achievements: string
+CreateEmperorRequest (Request Payload Data Type for Creating a New Emperor)
+Represents the data required when creating a new Roman emperor.
+
+raml
+Copy code
+types:
+  CreateEmperorRequest:
+    type: object
+    properties:
+      name: string
+      reign_start: string
+      reign_end: string
+      birth_date: string
+      death_date: string
+      achievements: string
+UpdateEmperorRequest (Request Payload Data Type for Updating an Emperor)
+Represents the data required when updating the details of an existing Roman emperor.
+
+raml
+Copy code
+types:
+  UpdateEmperorRequest:
+    type: object
+    properties:
+      name: string
+      reign_start: string
+      reign_end: string
+      birth_date: string
+      death_date: string
+      achievements: string
+GetEmperorResponse (Response Payload Data Type for Retrieving a Specific Emperor)
+Represents the response data when retrieving the details of a specific Roman emperor.
+
+raml
+Copy code
+types:
+  GetEmperorResponse:
+    type: object
+    properties:
+      name: string
+      reign_start: string
+      reign_end: string
+      birth_date: string
+      death_date: string
+      achievements: string
+ListEmperorsResponse (Response Payload Data Type for Retrieving a List of Emperors)
+Represents the response data when retrieving a list of all Roman emperors.
+
+raml
+Copy code
+types:
+  ListEmperorsResponse:
+    type: array
+    items: RomanEmperor
+These API data types define the structure of request and response payloads for various API endpoints in the RAML specification. The RomanEmperor type is the central data structure representing the details of a Roman emperor, and other types are used to describe specific request and response formats for different API operations.
+
+
+Data Types Fragment
+raml
+Copy code
+#%RAML 1.0 Library
+
+types:
+  RomanEmperor:
+    type: object
+    properties:
+      name: string
+      reign_start: string
+      reign_end: string
+      birth_date: string
+      death_date: string
+      achievements: string
+Response Status Fragment
+raml
+Copy code
+#%RAML 1.0 Library
+
+responses:
+  SuccessResponse:
+    description: The request was successful.
+  NotFoundResponse:
+    description: The requested resource was not found.
+  BadRequestResponse:
+    description: Bad request. Invalid input data.
+Now, you can include these fragments in your main RAML file using the uses keyword. Here's how your main RAML file would look like:
+
+raml
+Copy code
+#%RAML 1.0
+title: Roman Emperors API
+version: 1.0
+baseUri: https://api.example.com/roman-emperors
+uses:
+  dataTypes: data-types.raml
+  responseStatus: response-status.raml
+
+/emperors:
+  get:
+    description: Retrieve a list of all Roman emperors.
+    responses:
+      dataTypes: ListEmperorsResponse
+      responseStatus: SuccessResponse
+
+  post:
+    description: Create a new Roman emperor record.
+    body:
+      application/json:
+        example: |
+          {
+            "name": "New Emperor",
+            "reign_start": "January 1, 100 AD",
+            "reign_end": "December 31, 150 AD",
+            "birth_date": "January 1, 50 AD",
+            "death_date": "December 31, 200 AD",
+            "achievements": "Notable achievements"
+          }
+    responses:
+      dataTypes: SuccessResponse | BadRequestResponse
+
+                      
