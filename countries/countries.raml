@@ -1,0 +1,66 @@
+#%RAML 1.0
+title: Countries API
+version: v1
+
+types:
+  Country:
+    type: object
+    properties:
+      id: number
+      name: string
+      capital: string
+      population: number
+      continent: string
+
+/countries:
+  get:
+    description: Retrieve a list of all countries
+    responses:
+      200:
+        body:
+          application/json:
+            type: Country[]
+
+  post:
+    description: Create a new country
+    body:
+      application/json:
+        type: Country
+    responses:
+      201:
+        body:
+          application/json:
+            type: Country
+
+/countries/{id}:
+  uriParameters:
+    id:
+      type: number
+      required: true
+
+  get:
+    description: Retrieve country details by ID
+    responses:
+      200:
+        body:
+          application/json:
+            type: Country
+
+  put:
+    description: Update country details by ID
+    body:
+      application/json:
+        type: Country
+    responses:
+      200:
+        body:
+          application/json:
+            type: Country
+
+  delete:
+    description: Delete country by ID
+    responses:
+      204:
+        body:
+          application/json:
+            example: {}
