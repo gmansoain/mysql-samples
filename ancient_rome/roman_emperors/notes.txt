@@ -1,1 +1,5 @@
 - Add an operation for Get Emperor by Name (more user friendly than get emperor by id)
+
+Define naming convention for:
+- Flow names - format and what info should include, i.e. getEmperorById
+- 
