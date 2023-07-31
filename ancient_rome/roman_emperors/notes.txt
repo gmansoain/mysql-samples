@@ -1,5 +1,9 @@
 - Add an operation for Get Emperor by Name (more user-friendly than get emperor by id)
 - Add responses for successful operations in PUT, DELETE, POST - i.e. emperor added successfully
+- Parametrize the app.
+    - Connection config for database based on env - dev/PROD
+    - externalize these values so that we can modify properties by modifying only the external file
+    - this external file will be used by Jenkins?
 
 Define naming convention for:
 - Flow names - format and what info should include, i.e. getEmperorById
