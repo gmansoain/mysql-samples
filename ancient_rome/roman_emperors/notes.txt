@@ -1,9 +1,17 @@
 - Add an operation for Get Emperor by Name (more user-friendly than get emperor by id)
 - Add responses for successful operations in PUT, DELETE, POST - i.e. emperor added successfully
+- Change update and post operations to get values from queryParams instead of from the body?
 - Parametrize the app.
     - Connection config for database based on env - dev/PROD
     - externalize these values so that we can modify properties by modifying only the external file
     - this external file will be used by Jenkins?
+- Add a static html page to work as frontend
+- Add postman collection. Sync postman and github so that changes in the collection are automatically updated in github
+- Parametrize the postman collection
+- Add authentication - Basic first and then ClientId and/or OAuth
+- Add loggers for a proper logging strategy
+- Add bulk insert/update/delete operations
+- Create a batch job to populate the database from the csv/json file
 
 Define naming convention for:
 - Flow names - format and what info should include, i.e. getEmperorById
