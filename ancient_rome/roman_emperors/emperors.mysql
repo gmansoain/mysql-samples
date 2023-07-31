@@ -1,10 +1,10 @@
 CREATE TABLE emperors (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    reign_start VARCHAR(10) NOT NULL,
-    reign_end VARCHAR(10),
-    birth_date VARCHAR(10),
-    death_date VARCHAR(10),
+    reign_start VARCHAR(25) NOT NULL,
+    reign_end VARCHAR(25),
+    birth_date VARCHAR(25),
+    death_date VARCHAR(25),
     dynasty VARCHAR(100),
     other_titles TEXT,
     biography TEXT
