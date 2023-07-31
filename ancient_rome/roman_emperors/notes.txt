@@ -1,4 +1,5 @@
 - Add an operation for Get Emperor by Name (more user friendly than get emperor by id)
+- Add responses for successful operations in PUT, DELETE, POST - i.e. emperor added successfully
 
 Define naming convention for:
 - Flow names - format and what info should include, i.e. getEmperorById
