@@ -1,0 +1,723 @@
+[
+    {
+      "name": "Augustus",
+      "birth_date": "September 23, 63 BC",
+      "death_date": "August 19, 14 AD",
+      "reign_start": "January 16, 27 BC",
+      "reign_end": "August 19, 14 AD",
+      "dynasty": "Julio-Claudian",
+      "other_titles": "Princeps",
+      "biography": "The first Roman Emperor."
+    },
+    {
+      "name": "Tiberius",
+      "birth_date": "November 16, 42 BC",
+      "death_date": "March 16, 37 AD",
+      "reign_start": "August 19, 14 AD",
+      "reign_end": "March 16, 37 AD",
+      "dynasty": "Julio-Claudian",
+      "other_titles": "Princeps",
+      "biography": "Stepson of Augustus."
+    },
+    {
+      "name": "Caligula",
+      "birth_date": "August 31, 12 AD",
+      "death_date": "January 24, 41 AD",
+      "reign_start": "March 18, 37 AD",
+      "reign_end": "January 24, 41 AD",
+      "dynasty": "Julio-Claudian",
+      "other_titles": "Princeps",
+      "biography": "Known for his cruel and extravagant behavior."
+    },
+    {
+      "name": "Claudius",
+      "birth_date": "Unknown",
+      "death_date": "October 13, 54 AD",
+      "reign_start": "January 24, 41 AD",
+      "reign_end": "October 13, 54 AD",
+      "dynasty": "Julio-Claudian",
+      "other_titles": "Princeps",
+      "biography": "Expanded the Roman Empire through military conquests."
+    },
+    {
+      "name": "Nero",
+      "birth_date": "December 15, 37 AD",
+      "death_date": "June 9, 68 AD",
+      "reign_start": "October 13, 54 AD",
+      "reign_end": "June 9, 68 AD",
+      "dynasty": "Julio-Claudian",
+      "other_titles": "Princeps",
+      "biography": "Famous for persecuting Christians and the Great Fire of Rome."
+    },
+    {
+      "name": "Galba",
+      "birth_date": "Unknown",
+      "death_date": "January 15, 69 AD",
+      "reign_start": "June 8, 68 AD",
+      "reign_end": "January 15, 69 AD",
+      "dynasty": "Year of the Four Emperors",
+      "other_titles": "Princeps",
+      "biography": "Assumed the throne after Nero's suicide."
+    },
+    {
+      "name": "Otho",
+      "birth_date": "April 28, 32 AD",
+      "death_date": "April 16, 69 AD",
+      "reign_start": "January 15, 69 AD",
+      "reign_end": "April 16, 69 AD",
+      "dynasty": "Year of the Four Emperors",
+      "other_titles": "Princeps",
+      "biography": "Briefly ruled after the death of Galba."
+    },
+    {
+      "name": "Vitellius",
+      "birth_date": "September 24, 15 AD",
+      "death_date": "December 20, 69 AD",
+      "reign_start": "April 17, 69 AD",
+      "reign_end": "December 20, 69 AD",
+      "dynasty": "Year of the Four Emperors",
+      "other_titles": "Princeps",
+      "biography": "Ruled after the death of Otho and before Vespasian's accession."
+    },
+    {
+      "name": "Vespasian",
+      "birth_date": "November 17, 9 AD",
+      "death_date": "June 23, 79 AD",
+      "reign_start": "July 1, 69 AD",
+      "reign_end": "June 23, 79 AD",
+      "dynasty": "Flavian",
+      "other_titles": "Princeps",
+      "biography": "Founder of the Flavian dynasty."
+    },
+    {
+      "name": "Titus",
+      "birth_date": "December 30, 39 AD",
+      "death_date": "September 13, 81 AD",
+      "reign_start": "June 24, 79 AD",
+      "reign_end": "September 13, 81 AD",
+      "dynasty": "Flavian",
+      "other_titles": "Princeps",
+      "biography": "Known for completing the Colosseum."
+    },
+    {
+      "name": "Domitian",
+      "birth_date": "October 24, 51 AD",
+      "death_date": "September 18, 96 AD",
+      "reign_start": "September 14, 81 AD",
+      "reign_end": "September 18, 96 AD",
+      "dynasty": "Flavian",
+      "other_titles": "Princeps",
+      "biography": "Last emperor of the Flavian dynasty."
+    },
+    {
+      "name": "Nerva",
+      "birth_date": "November 8, 30 AD",
+      "death_date": "January 27, 98 AD",
+      "reign_start": "September 18, 96 AD",
+      "reign_end": "January 27, 98 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "First of the Five Good Emperors."
+    },
+    {
+      "name": "Trajan",
+      "birth_date": "September 18, 53 AD",
+      "death_date": "August 9, 117 AD",
+      "reign_start": "January 28, 98 AD",
+      "reign_end": "August 9, 117 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "Known for his military conquests and public works."
+    },
+    {
+      "name": "Hadrian",
+      "birth_date": "January 24, 76 AD",
+      "death_date": "July 10, 138 AD",
+      "reign_start": "August 11, 117 AD",
+      "reign_end": "July 10, 138 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "Builder of Hadrian's Wall."
+    },
+    {
+      "name": "Antoninus Pius",
+      "birth_date": "September 19, 86 AD",
+      "death_date": "March 7, 161 AD",
+      "reign_start": "July 10, 138 AD",
+      "reign_end": "March 7, 161 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "Known for his peaceful reign."
+    },
+    {
+      "name": "Marcus Aurelius",
+      "birth_date": "April 26, 121 AD",
+      "death_date": "March 17, 180 AD",
+      "reign_start": "March 7, 161 AD",
+      "reign_end": "March 17, 180 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "Famous for his Stoic philosophy."
+    },
+    {
+      "name": "Lucius Verus",
+      "birth_date": "December 15, 130 AD",
+      "death_date": "February 169 AD",
+      "reign_start": "March 7, 161 AD",
+      "reign_end": "February 169 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "Co-emperor with Marcus Aurelius."
+    },
+    {
+      "name": "Commodus",
+      "birth_date": "August 31, 161 AD",
+      "death_date": "December 31, 192 AD",
+      "reign_start": "February 169 AD",
+      "reign_end": "December 31, 192 AD",
+      "dynasty": "Nerva-Antonine",
+      "other_titles": "Princeps",
+      "biography": "Son of Marcus Aurelius, known for his extravagant lifestyle."
+    },
+    {
+      "name": "Pertinax",
+      "birth_date": "August 1, 126 AD",
+      "death_date": "March 28, 193 AD",
+      "reign_start": "January 1, 193 AD",
+      "reign_end": "March 28, 193 AD",
+      "dynasty": "Year of the Five Emperors",
+      "other_titles": "Princeps",
+      "biography": "Ruled for a short time after the assassination of Commodus."
+    },
+    {
+      "name": "Didius Julianus",
+      "birth_date": "January 30, 133 AD",
+      "death_date": "June 1, 193 AD",
+      "reign_start": "March 28, 193 AD",
+      "reign_end": "June 1, 193 AD",
+      "dynasty": "Year of the Five Emperors",
+      "other_titles": "Princeps",
+      "biography": "Bought the throne at an auction after Pertinax's death."
+    },
+    {
+      "name": "Septimius Severus",
+      "birth_date": "April 11, 145 AD",
+      "death_date": "February 4, 211 AD",
+      "reign_start": "April 9, 193 AD",
+      "reign_end": "February 4, 211 AD",
+      "dynasty": "Severan",
+      "other_titles": "Augustus",
+      "biography": "Founded the Severan dynasty."
+    },
+    {
+      "name": "Caracalla",
+      "birth_date": "April 4, 188 AD",
+      "death_date": "April 8, 217 AD",
+      "reign_start": "February 4, 211 AD",
+      "reign_end": "April 8, 217 AD",
+      "dynasty": "Severan",
+      "other_titles": "Augustus",
+      "biography": "Granted Roman citizenship to all free people in the empire."
+    },
+    {
+      "name": "Geta",
+      "birth_date": "Unknown",
+      "death_date": "December 19, 211 AD",
+      "reign_start": "February 4, 211 AD",
+      "reign_end": "December 19, 211 AD",
+      "dynasty": "Severan",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with Caracalla, assassinated by his brother."
+    },
+    {
+      "name": "Macrinus",
+      "birth_date": "Unknown",
+      "death_date": "June 218 AD",
+      "reign_start": "April 11, 217 AD",
+      "reign_end": "June 218 AD",
+      "dynasty": "Severan",
+      "other_titles": "Augustus",
+      "biography": "First emperor who was not of senatorial or equestrian rank."
+    },
+    {
+      "name": "Elagabalus",
+      "birth_date": "May 14, 203 AD",
+      "death_date": "March 11, 222 AD",
+      "reign_start": "June 218 AD",
+      "reign_end": "March 11, 222 AD",
+      "dynasty": "Severan",
+      "other_titles": "Augustus",
+      "biography": "Infamous for his eccentric behavior and religious reforms."
+    },
+    {
+      "name": "Severus Alexander",
+      "birth_date": "October 1, 208 AD",
+      "death_date": "March 18, 235 AD",
+      "reign_start": "March 13, 222 AD",
+      "reign_end": "March 18, 235 AD",
+      "dynasty": "Severan",
+      "other_titles": "Augustus",
+      "biography": "The last of the Severan dynasty."
+    },
+    {
+      "name": "Maximinus Thrax",
+      "birth_date": "Unknown",
+      "death_date": "May 238 AD",
+      "reign_start": "March 20, 235 AD",
+      "reign_end": "May 238 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "First emperor who was not of Roman origin."
+    },
+    {
+      "name": "Gordian I",
+      "birth_date": "Unknown",
+      "death_date": "April 238 AD",
+      "reign_start": "March 22, 238 AD",
+      "reign_end": "April 238 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Proclaimed emperor during the Year of the Six Emperors."
+    },
+    {
+      "name": "Gordian II",
+      "birth_date": "Unknown",
+      "death_date": "April 238 AD",
+      "reign_start": "March 22, 238 AD",
+      "reign_end": "April 238 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with his father Gordian I."
+    },
+    {
+      "name": "Pupienus",
+      "birth_date": "Unknown",
+      "death_date": "July 238 AD",
+      "reign_start": "April 22, 238 AD",
+      "reign_end": "July 238 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor during the Year of the Six Emperors."
+    },
+    {
+      "name": "Balbinus",
+      "birth_date": "Unknown",
+      "death_date": "July 238 AD",
+      "reign_start": "April 22, 238 AD",
+      "reign_end": "July 238 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor during the Year of the Six Emperors."
+    },
+    {
+      "name": "Gordian III",
+      "birth_date": "January 20, 225 AD",
+      "death_date": "February 244 AD",
+      "reign_start": "April 22, 238 AD",
+      "reign_end": "February 244 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Became emperor at the age of 13."
+    },
+    {
+      "name": "Philip the Arab",
+      "birth_date": "Unknown",
+      "death_date": "September 249 AD",
+      "reign_start": "February 244 AD",
+      "reign_end": "September 249 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "First emperor of Arab descent."
+    },
+    {
+      "name": "Decius",
+      "birth_date": "January 201 AD",
+      "death_date": "June 251 AD",
+      "reign_start": "September 249 AD",
+      "reign_end": "June 251 AD",
+      "dynasty": "Gordian and Decian",
+      "other_titles": "Princeps",
+      "biography": "Known for his persecution of Christians."
+    },
+    {
+      "name": "Trebonianus Gallus",
+      "birth_date": "Unknown",
+      "death_date": "July 253 AD",
+      "reign_start": "June 251 AD",
+      "reign_end": "July 253 AD",
+      "dynasty": "Gordian and Decian",
+      "other_titles": "Princeps",
+      "biography": "Assumed the throne after Decius's death."
+    },
+    {
+      "name": "Aemilianus",
+      "birth_date": "Unknown",
+      "death_date": "October 253 AD",
+      "reign_start": "July 253 AD",
+      "reign_end": "October 253 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Ruled for a short time before being assassinated."
+    },
+    {
+      "name": "Valerian",
+      "birth_date": "Unknown",
+      "death_date": "After 260 AD",
+      "reign_start": "October 253 AD",
+      "reign_end": "After 260 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Captured and reportedly killed by the Sassanids."
+    },
+    {
+      "name": "Gallienus",
+      "birth_date": "Unknown",
+      "death_date": "March 268 AD",
+      "reign_start": "October 253 AD",
+      "reign_end": "March 268 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Son of Valerian, assassinated during the Crisis of the Third Century."
+    },
+    {
+      "name": "Claudius II Gothicus",
+      "birth_date": "Unknown",
+      "death_date": "January 270 AD",
+      "reign_start": "March 268 AD",
+      "reign_end": "January 270 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Defeated the Goths at the Battle of Naissus."
+    },
+    {
+      "name": "Quintillus",
+      "birth_date": "Unknown",
+      "death_date": "March 270 AD",
+      "reign_start": "January 270 AD",
+      "reign_end": "March 270 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Ruled for a short time after the death of Claudius II."
+    },
+    {
+      "name": "Aurelian",
+      "birth_date": "September 9, 214 AD",
+      "death_date": "September 275 AD",
+      "reign_start": "September 270 AD",
+      "reign_end": "September 275 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Reunified the Roman Empire and defeated the Palmyrene Empire."
+    },
+    {
+      "name": "Tacitus",
+      "birth_date": "Unknown",
+      "death_date": "April 276 AD",
+      "reign_start": "September 275 AD",
+      "reign_end": "April 276 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Ruled after the death of Aurelian."
+    },
+    {
+      "name": "Probus",
+      "birth_date": "Unknown",
+      "death_date": "September 282 AD",
+      "reign_start": "September 276 AD",
+      "reign_end": "September 282 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Known for his military campaigns and agricultural reforms."
+    },
+    {
+      "name": "Carus",
+      "birth_date": "Unknown",
+      "death_date": "July/August 283 AD",
+      "reign_start": "September 282 AD",
+      "reign_end": "July/August 283 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Served as emperor alongside his sons Carinus and Numerian."
+    },
+    {
+      "name": "Carinus",
+      "birth_date": "Unknown",
+      "death_date": "July/August 285 AD",
+      "reign_start": "July/August 283 AD",
+      "reign_end": "July/August 285 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with his father Carus, killed in a battle against Diocletian."
+    },
+    {
+      "name": "Numerian",
+      "birth_date": "Unknown",
+      "death_date": "November 284 AD",
+      "reign_start": "November 283 AD",
+      "reign_end": "November 284 AD",
+      "dynasty": "Crisis of the Third Century",
+      "other_titles": "Augustus",
+      "biography": "Succeeded Carus as emperor, died during the journey back to Rome."
+    },
+    {
+      "name": "Diocletian",
+      "birth_date": "December 22, 244 AD",
+      "death_date": "December 3, 311 AD",
+      "reign_start": "November 20, 284 AD",
+      "reign_end": "May 1, 305 AD",
+      "dynasty": "Tetrarchy",
+      "other_titles": "Augustus",
+      "biography": "Initiated the Tetrarchy system of government."
+    },
+    {
+      "name": "Maximian",
+      "birth_date": "Unknown",
+      "death_date": "Unknown",
+      "reign_start": "April 1, 286 AD",
+      "reign_end": "May 1, 305 AD",
+      "dynasty": "Tetrarchy",
+      "other_titles": "Augustus",
+      "biography": "Ruled as co-emperor with Diocletian."
+    },
+    {
+      "name": "Constantius Chlorus",
+      "birth_date": "Unknown",
+      "death_date": "July/August 306 AD",
+      "reign_start": "March 1, 293 AD",
+      "reign_end": "July/August 306 AD",
+      "dynasty": "Tetrarchy",
+      "other_titles": "Augustus",
+      "biography": "Father of Constantine the Great."
+    },
+    {
+      "name": "Galerius",
+      "birth_date": "Unknown",
+      "death_date": "May 311 AD",
+      "reign_start": "May 1, 305 AD",
+      "reign_end": "May 311 AD",
+      "dynasty": "Tetrarchy",
+      "other_titles": "Augustus",
+      "biography": "Shared the rule with other tetrarchs."
+    },
+    {
+      "name": "Maximinus Daia",
+      "birth_date": "Unknown",
+      "death_date": "July/August 313 AD",
+      "reign_start": "November 11, 308 AD",
+      "reign_end": "July/August 313 AD",
+      "dynasty": "Tetrarchy",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with Licinius."
+    },
+    {
+      "name": "Licinius",
+      "birth_date": "Unknown",
+      "death_date": "September 325 AD",
+      "reign_start": "November 11, 308 AD",
+      "reign_end": "September 325 AD",
+      "dynasty": "Tetrarchy",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with Maximinus Daia and Constantine the Great."
+    },
+    {
+      "name": "Constantine the Great",
+      "birth_date": "February 27, 272 AD",
+      "death_date": "May 22, 337 AD",
+      "reign_start": "July 25, 306 AD",
+      "reign_end": "May 22, 337 AD",
+      "dynasty": "Constantinian",
+      "other_titles": "Augustus",
+      "biography": "First Roman emperor to convert to Christianity."
+    },
+    {
+      "name": "Constantine II",
+      "birth_date": "January/February 316 AD",
+      "death_date": "January 340 AD",
+      "reign_start": "May 22, 337 AD",
+      "reign_end": "January 340 AD",
+      "dynasty": "Constantinian",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with his brothers Constans and Constantius II."
+    },
+    {
+      "name": "Constans",
+      "birth_date": "Unknown",
+      "death_date": "January 350 AD",
+      "reign_start": "May 22, 337 AD",
+      "reign_end": "January 350 AD",
+      "dynasty": "Constantinian",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with his brothers Constantine II and Constantius II."
+    },
+    {
+      "name": "Constantius II",
+      "birth_date": "August 7, 317 AD",
+      "death_date": "November 3, 361 AD",
+      "reign_start": "May 22, 337 AD",
+      "reign_end": "November 3, 361 AD",
+      "dynasty": "Constantinian",
+      "other_titles": "Augustus",
+      "biography": "Became the sole ruler after defeating his brothers."
+    },
+    {
+      "name": "Julian",
+      "birth_date": "November 331/332 AD",
+      "death_date": "June 26, 363 AD",
+      "reign_start": "November 3, 361 AD",
+      "reign_end": "June 26, 363 AD",
+      "dynasty": "Constantinian",
+      "other_titles": "Augustus",
+      "biography": "Reigned for a short time and attempted to revive paganism."
+    },
+    {
+      "name": "Jovian",
+      "birth_date": "Unknown",
+      "death_date": "February 17, 364 AD",
+      "reign_start": "June 26, 363 AD",
+      "reign_end": "February 17, 364 AD",
+      "dynasty": "Valentinian",
+      "other_titles": "Augustus",
+      "biography": "Ruled after the death of Julian."
+    },
+    {
+      "name": "Valentinian I",
+      "birth_date": "321 AD",
+      "death_date": "November 17, 375 AD",
+      "reign_start": "February 26, 364 AD",
+      "reign_end": "November 17, 375 AD",
+      "dynasty": "Valentinian",
+      "other_titles": "Augustus",
+      "biography": "Founder of the Valentinian dynasty."
+    },
+    {
+      "name": "Valens",
+      "birth_date": "328 AD",
+      "death_date": "August 9, 378 AD",
+      "reign_start": "March 28, 364 AD",
+      "reign_end": "August 9, 378 AD",
+      "dynasty": "Valentinian",
+      "other_titles": "Augustus",
+      "biography": "Ruler of the Eastern Roman Empire, died at the Battle of Adrianople."
+    },
+    {
+      "name": "Gratian",
+      "birth_date": "359 AD",
+      "death_date": "August 25, 383 AD",
+      "reign_start": "August 4, 367 AD",
+      "reign_end": "August 25, 383 AD",
+      "dynasty": "Valentinian",
+      "other_titles": "Augustus",
+      "biography": "Ruler of the Western Roman Empire, known for his religious policies."
+    },
+    {
+      "name": "Valentinian II",
+      "birth_date": "371 AD",
+      "death_date": "May 15, 392 AD",
+      "reign_start": "November 22, 375 AD",
+      "reign_end": "May 15, 392 AD",
+      "dynasty": "Valentinian",
+      "other_titles": "Augustus",
+      "biography": "Co-emperor with his brother Gratian and later with Theodosius I."
+    },
+    {
+      "name": "Theodosius I",
+      "birth_date": "January 11, 347 AD",
+      "death_date": "January 17, 395 AD",
+      "reign_start": "January 19, 379 AD",
+      "reign_end": "January 17, 395 AD",
+      "dynasty": "Theodosian",
+      "other_titles": "Augustus",
+      "biography": "Last emperor to rule over both the Eastern and Western Roman Empires."
+    },
+    {
+        "name": "Honorius",
+        "birth_date": "September 9, 384 AD",
+        "death_date": "August 15, 423 AD",
+        "reign_start": "January 23, 393 AD",
+        "reign_end": "August 15, 423 AD",
+        "dynasty": "Theodosian",
+        "other_titles": "Augustus",
+        "biography": "Ruler during the fall of the Western Roman Empire."
+      },
+      {
+        "name": "Constantius III",
+        "birth_date": "Unknown",
+        "death_date": "September 2, 421 AD",
+        "reign_start": "February 8, 421 AD",
+        "reign_end": "September 2, 421 AD",
+        "dynasty": "Theodosian",
+        "other_titles": "Augustus",
+        "biography": "Co-emperor with Honorius for a short time."
+      },
+      {
+        "name": "Joannes",
+        "birth_date": "Unknown",
+        "death_date": "May 425 AD",
+        "reign_start": "November 20, 423 AD",
+        "reign_end": "May 425 AD",
+        "dynasty": "Joannes",
+        "other_titles": "Augustus",
+        "biography": "Usurper in the Western Roman Empire."
+      },
+      {
+        "name": "Valentinian III",
+        "birth_date": "July 2, 419 AD",
+        "death_date": "March 16, 455 AD",
+        "reign_start": "October 23, 425 AD",
+        "reign_end": "March 16, 455 AD",
+        "dynasty": "Theodosian",
+        "other_titles": "Augustus",
+        "biography": "The last ruler of the Western Roman Empire."
+      },
+      {
+        "name": "Petronius Maximus",
+        "birth_date": "Unknown",
+        "death_date": "May 31, 455 AD",
+        "reign_start": "March 17, 455 AD",
+        "reign_end": "May 31, 455 AD",
+        "dynasty": "Petronian",
+        "other_titles": "Augustus",
+        "biography": "Usurper after the death of Valentinian III."
+      },
+      {
+        "name": "Avitus",
+        "birth_date": "Unknown",
+        "death_date": "October 17, 456 AD",
+        "reign_start": "July 9, 455 AD",
+        "reign_end": "October 17, 456 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "First ruler of the Western Roman Empire after the sack of Rome by the Vandals."
+      },
+      {
+        "name": "Majorian",
+        "birth_date": "February 420 AD",
+        "death_date": "August 7, 461 AD",
+        "reign_start": "April 1, 457 AD",
+        "reign_end": "August 7, 461 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "Implemented several reforms during his rule."
+      },
+      {
+        "name": "Libius Severus",
+        "birth_date": "Unknown",
+        "death_date": "August 15, 465 AD",
+        "reign_start": "November 19, 461 AD",
+        "reign_end": "August 15, 465 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "Usurper after the death of Majorian."
+      },
+      {
+        "name": "Anthemius",
+        "birth_date": "April 420 AD",
+        "death_date": "July 11, 472 AD",
+        "reign_start": "April 12, 467 AD",
+        "reign_end": "July 11, 472 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "Western Roman Emperor, assassinated by Ricimer's supporters."
+      }
+  ]
+  
