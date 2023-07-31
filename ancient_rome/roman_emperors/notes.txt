@@ -12,6 +12,7 @@
 - Add loggers for a proper logging strategy
 - Add bulk insert/update/delete operations
 - Create a batch job to populate the database from the csv/json file
+- Add two extra batch operations. One to empty/reset the database and another one to populate it with the first 25 emperors. Include the json file with the data inside the app? can we also externalize that and take it from an sftp?
 
 Define naming convention for:
 - Flow names - format and what info should include, i.e. getEmperorById
