@@ -718,6 +718,46 @@
         "dynasty": "Non-dynastic",
         "other_titles": "Augustus",
         "biography": "Western Roman Emperor, assassinated by Ricimer's supporters."
+      },
+    {
+        "name": "Olybrius",
+        "birth_date": "Unknown",
+        "death_date": "November 2, 472 AD",
+        "reign_start": "April 11, 472 AD",
+        "reign_end": "November 2, 472 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "Ruled for a short time before his death."
+      },
+      {
+        "name": "Glycerius",
+        "birth_date": "Unknown",
+        "death_date": "Unknown",
+        "reign_start": "March 3, 473 AD",
+        "reign_end": "June 474 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "Usurper, deposed by Julius Nepos."
+      },
+      {
+        "name": "Julius Nepos",
+        "birth_date": "Unknown",
+        "death_date": "Unknown",
+        "reign_start": "June 24, 474 AD",
+        "reign_end": "April 28, 480 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "Last recognized ruler of the Western Roman Empire."
+      },
+      {
+        "name": "Romulus Augustulus",
+        "birth_date": "Unknown",
+        "death_date": "Unknown",
+        "reign_start": "October 31, 475 AD",
+        "reign_end": "September 4, 476 AD",
+        "dynasty": "Non-dynastic",
+        "other_titles": "Augustus",
+        "biography": "The last Roman emperor, deposed by Odoacer."
       }
   ]
   
