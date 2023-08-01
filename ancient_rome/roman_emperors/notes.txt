@@ -1,6 +1,8 @@
 - Add an operation for Get Emperor by Name (more user-friendly than get emperor by id)
 - Add responses for successful operations in PUT, DELETE, POST - i.e. emperor added successfully
 - Change update and post operations to get values from queryParams instead of from the body?
+- Publish the app on https
+- create a self-signed certificate and a fake custom domain and publish it there
 - Parametrize the app.
     - Connection config for database based on env - dev/PROD
     - externalize these values so that we can modify properties by modifying only the external file
@@ -8,11 +10,13 @@
 - Add a static html page to work as frontend
 - Add postman collection. Sync postman and github so that changes in the collection are automatically updated in github
 - Parametrize the postman collection
-- Add authentication - Basic first and then ClientId and/or OAuth
+- Add authentication - Basic first and then ClientId and/or OAuth (Okta integration?)
 - Add loggers for a proper logging strategy
 - Add bulk insert/update/delete operations
 - Create a batch job to populate the database from the csv/json file
 - Add two extra batch operations. One to empty/reset the database and another one to populate it with the first 25 emperors. Include the json file with the data inside the app? can we also externalize that and take it from an sftp?
+- Add API manager instance ID and play with policies
+- Add 5 pages of API documentation based on Catalyst best practices
 
 Define naming convention for:
 - Flow names - format and what info should include, i.e. getEmperorById
