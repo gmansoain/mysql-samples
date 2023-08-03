@@ -21,3 +21,25 @@
 Define naming convention for:
 - Flow names - format and what info should include, i.e. getEmperorById
 - URL naming convention - should we include apiversion --> HTTP://<host_name>/api/v1/resource?
+
+
+NEW API SPEC
+- Create Responses for all operations:
+    - 200 for all GET and DELETE operations. Send a custom message with successful/unsuccessful operation with DELETE
+    - 201 for all POST operations
+    - 204 to PATCH operations
+- Create Error Responses (client-side 4xx and server-side 5xx)
+    - 404 Not Found to all GET operations
+    - 406 Unsupported type to GET operations (if only allowed json or XML)
+    - 501 not implemented to PATCH
+    - 503 Service Unavailable to POST operations
+- Add a response body with both 200 and 201 PUT methods
+- Create enum type of parameter for the operation get emperor by name, this way we show a dropdown of names instead of a free field
+- Create Datatypes fragments files
+    - Set request and response body types to datatypes
+- Create examples for datatypes fragments
+- Define required and optional attributes in datatypes
+- Create datatypes for CustomErrorMessages
+
+
+
